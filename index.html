@@ -639,27 +639,27 @@
                             <div class="row">
                                 <div class="col-md-6">
                                     <div class="form-group">
-                                        <input id="form_name" type="text" name="name" placeholder="Name *" required="required">
+                                        <input id="myform_name" type="text" name="name" placeholder="Name *" required="required">
                                     </div>
                                 </div>
 
                                  <div class="col-md-6">
                                     <div class="form-group">
-                                        <input id="form_email" type="email" name="_replyto" placeholder="Email *" required="required">
+                                        <input id="myform_email" type="email" name="_replyto" placeholder="Email *" required="required">
                                     </div>
                                 </div>
                             </div>
                             <div class="row">
                                 <div class="col-md-12">
                                     <div class="form-group">
-                                        <input id="form_subject" type="text" name="subject" placeholder="Subject">
+                                        <input id="myform_subject" type="text" name="subject" placeholder="Subject">
                                     </div>
                                 </div>
                             </div>
                             <div class="row">
                                 <div class="col-md-12">
                                     <div class="form-group">
-                                        <textarea id="form_message" name="message" placeholder="Your Message *" rows="4" required="required"></textarea>
+                                        <textarea id="myform_message" name="message" placeholder="Your Message *" rows="4" required="required"></textarea>
                                     </div>
                                 </div>
                             </div>
@@ -668,6 +668,7 @@
                                     <div class="form-group">
                                         <span class="buton buton-lg">
 											<button type="submit" front="Send Message" value="Send" back="&#xf35d;"></button>
+											<input type="hidden" name="_next" value="https://google.com/thankyou">
 										</span>
                                     </div>
                                 </div>
